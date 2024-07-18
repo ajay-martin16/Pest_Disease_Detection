@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pest and Disease Detection</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Pest and Disease Detection</h1>
+        <input type="file" id="imageUpload" accept="image/*" />
+        <img id="uploadedImage" width="224" height="224" />
+        <p id="prediction"></p>
+        <button id="resetButton">Reset</button>
+        <p id="plant-tips">
+            <!-- Placeholder for random plant tips -->
+            <strong>Plant Tips:</strong><br>
+            1. Water your plants early in the morning or late in the evening to minimize water loss due to evaporation.<br>
+            2. Ensure your plants get at least 6-8 hours of sunlight daily.<br>
+            3. Use compost to enrich the soil and promote healthy plant growth.<br>
+            4. Prune dead or diseased leaves to encourage new growth.<br>
+            5. Rotate your crops to prevent soil depletion and pest build-up.
+        </p>
+    </div>
+</body>
+</html>

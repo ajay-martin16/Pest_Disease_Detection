@@ -1,0 +1,40 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    border: 2px solid green;
+    padding: 20px;
+}
+
+h1 {
+    color: green;
+}
+
+#prediction {
+    font-size: 1.5em;
+    color: green;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#plant-tips {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
